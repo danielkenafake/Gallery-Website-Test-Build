@@ -57,14 +57,15 @@ li a:hover:not(.active) {
 #gallery {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0.3em;
     max-width:1500px;
-    line-height: 0;
+    line-height: 1.5em;
     -webkit-column-count: 4;
-    -webkit-column-gap:   0px;
+    -webkit-column-gap:   0.3em;
     -moz-column-count:    4;
-    -moz-column-gap:      0px;
+    -moz-column-gap:      5px;
     column-count:         4;
-    column-gap:           0px;
+    column-gap:           0.3em;
 }
 
 #gallery img {
@@ -88,7 +89,7 @@ li a:hover:not(.active) {
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 500px){
     #gallery {
         -webkit-column-count: 1;
         -moz-column-count:    1;
